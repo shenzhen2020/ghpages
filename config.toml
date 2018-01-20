@@ -85,126 +85,126 @@ title = "Shenzhen2020"
     description = "<p>two</p>"
 
 # Services section
-[params.services]
-  enable = true
-  video = true
-  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "Our Services"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-present"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-eye"
-    title = "Retina Ready"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Light Speed"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-rocket"
-    title = "Load Fast"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "Customer Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-# Work section
-[params.work]
-  enable = true
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_1.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_4.jpg"
-
-# Team section
-[params.team]
-  enable = true
-  title = "Meet The Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    linkedin = "#"
-
-  [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-
-  [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
+# [params.services]
+#   enable = true
+#   video = true
+#   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+#   title = "Our Services"
+#   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+#   [[params.services.item]]
+#     icon = "icon-present"
+#     title = "Web Development"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+#   [[params.services.item]]
+#     icon = "icon-eye"
+#     title = "Retina Ready"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+#   [[params.services.item]]
+#     icon = "icon-paper-plane"
+#     title = "Light Speed"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+#   [[params.services.item]]
+#     icon = "icon-pencil"
+#     title = "Copyrighting"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+#   [[params.services.item]]
+#     icon = "icon-rocket"
+#     title = "Load Fast"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+#   [[params.services.item]]
+#     icon = "icon-support"
+#     title = "Customer Support"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+# # Work section
+# [params.work]
+#   enable = true
+#
+#   [[params.work.item]]
+#     title = "Consectetur adipisicing"
+#     subtitle = "Web Design"
+#     img = "images/img_1.jpg"
+#
+#   [[params.work.item]]
+#     title = "Consectetur adipisicing"
+#     subtitle = "Web Design"
+#     img = "images/img_2.jpg"
+#
+#   [[params.work.item]]
+#     title = "Consectetur adipisicing"
+#     subtitle = "Web Design"
+#     img = "images/img_3.jpg"
+#
+#   [[params.work.item]]
+#     title = "Consectetur adipisicing"
+#     subtitle = "Web Design"
+#     img = "images/img_2.jpg"
+#
+#   [[params.work.item]]
+#     title = "Consectetur adipisicing"
+#     subtitle = "Web Design"
+#     img = "images/img_3.jpg"
+#
+#   [[params.work.item]]
+#     title = "Consectetur adipisicing"
+#     subtitle = "Web Design"
+#     img = "images/img_2.jpg"
+#
+#   [[params.work.item]]
+#     title = "Consectetur adipisicing"
+#     subtitle = "Web Design"
+#     img = "images/img_3.jpg"
+#
+#   [[params.work.item]]
+#     title = "Consectetur adipisicing"
+#     subtitle = "Web Design"
+#     img = "images/img_4.jpg"
+#
+# # Team section
+# [params.team]
+#   enable = true
+#   title = "Meet The Team"
+#   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+#   [[params.team.item]]
+#     name = "Jean Doe"
+#     position = "Chief legend"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#     img = "images/person1.jpg"
+#     facebook = "#"
+#     twitter = "#"
+#     dribbble = "#"
+#     instagram = "#"
+#     github = "#"
+#     linkedin = "#"
+#
+#   [[params.team.item]]
+#     name = "Alice Doe"
+#     position = "Chief overlord"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#     img = "images/person2.jpg"
+#     facebook = "#"
+#     twitter = "#"
+#     dribbble = "#"
+#     instagram = "#"
+#     github = "#"
+#
+#   [[params.team.item]]
+#     name = "John Doe"
+#     position = "Chief haranguer"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#     img = "images/person3.jpg"
+#     facebook = "#"
+#     twitter = "#"
+#     dribbble = "#"
+#     instagram = "#"
+#     github = "#"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
@@ -219,12 +219,12 @@ title = "Shenzhen2020"
 
 # Contact section
 [params.contact]
-  enable = true
+  enable = false
   title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  message = "Email us at mayaegrudolph[at]gmail.com or xiaoweirwang[at]gmail.com"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  note = "Email us at mayaegrudolph[at]gmail.com or xiaoweirwang[at]gmail.com"
