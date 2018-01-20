@@ -1,0 +1,7 @@
+[submodule "themes/hugo-icon"]
+	path = themes/hugo-icon
+	url = https://github.com/SteveLane/hugo-icon.git
+[submodule "public"]
+	path = public
+	url = git@github.com:shenzhen2020/shenzhen2020.github.io.git
+	branch = master
