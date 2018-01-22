@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.example.com/"
+baseURL = "https://www.shenzhen2020.com"
 languageCode = "en-AU"
 title = "Shenzhen2020"
 
@@ -11,16 +11,17 @@ title = "Shenzhen2020"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/hero_bg.jpg"
+  # img = "images/hero_bg.jpg"
+  img = "https://s3-us-west-2.amazonaws.com/website-screenshots-sz2020/ENV9.jpg"
   title = "Shenzhen2020"
-  description = "A journey through China's tech landscape told though the stories of a self-proclaimed cyborg, an engineer, a farmer and a sci-fi writer whose lives are transformed by the Internet and the shrinking distance between Science Fiction and real life as we approach the year 2020."
+  description = "A science-nonfiction film by Maya Rudolph \u0026 Xiaowei Wang"
 
 # Navigation section
 [params.nav]
   mission = "About"
   services = "Stills"
-  team = "The Team"
-  contact = "Contact"
+  fullimage = "test"
+  # contact = "Contact"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
@@ -43,179 +44,58 @@ title = "Shenzhen2020"
   [[params.mission.item]]
     weight = 1
     name = ""
-    title = ""
+    title = "About"
     subtitle = ""
-    description = "<p>.</p>"
-  #
-  # [[params.mission.item]]
-  #   weight = 2
-  #   name = "analysis"
-  #   title = "Resources"
-  #   subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-  #   description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>In China\u0027s ubiquitous technosphere, a self-identified cyborg, an idealistic engineer, a millionaire farmer, and a sci-fi writer\u0027s lives are transformed by the Internet and the vanishing space between imagined futures and real life as we approach the year 2020.</p>"
 
-  # [[params.mission.item]]
-  #   weight = 3
-  #   name = "strategy"
-  #   title = "Strategy"
-  #   subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-  #   description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
-
-# Mission section
-[params.section]
+# full image
+[params.fullimage]
   enable = true
+  img = "https://s3-us-west-2.amazonaws.com/website-screenshots-sz2020/NW2.jpg"
 
-  [params.section.images]
-    enable = true
+# full image
+[params.fullimages]
+  enable = true
+  img = "https://s3-us-west-2.amazonaws.com/website-screenshots-sz2020/YM3.jpg"
 
-    [[params.section.images.list]]
-      img = "images/img_3.jpg"
-    [[params.section.images.list]]
-      img = "images/img_2.jpg"
-    [[params.section.images.list]]
-      img = "images/img_1.jpg"
-    [[params.section.images.list]]
-      img = "images/img_4.jpg"
 
-  [[params.section.item]]
-    weight = 1
-    name = ""
-    title = ""
-    subtitle = ""
-    description = "<p>two</p>"
+#Services section
+[params.services]
+  enable = false
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Services"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-# Services section
-# [params.services]
-#   enable = true
-#   video = true
-#   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-#   title = "Our Services"
-#   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#
-#   [[params.services.item]]
-#     icon = "icon-present"
-#     title = "Web Development"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#
-#   [[params.services.item]]
-#     icon = "icon-eye"
-#     title = "Retina Ready"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#
-#   [[params.services.item]]
-#     icon = "icon-paper-plane"
-#     title = "Light Speed"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#
-#   [[params.services.item]]
-#     icon = "icon-pencil"
-#     title = "Copyrighting"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#
-#   [[params.services.item]]
-#     icon = "icon-rocket"
-#     title = "Load Fast"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#
-#   [[params.services.item]]
-#     icon = "icon-support"
-#     title = "Customer Support"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#
-# # Work section
-# [params.work]
-#   enable = true
-#
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_1.jpg"
-#
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_2.jpg"
-#
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_3.jpg"
-#
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_2.jpg"
-#
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_3.jpg"
-#
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_2.jpg"
-#
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_3.jpg"
-#
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_4.jpg"
-#
-# # Team section
-# [params.team]
-#   enable = true
-#   title = "Meet The Team"
-#   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#
-#   [[params.team.item]]
-#     name = "Jean Doe"
-#     position = "Chief legend"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#     img = "images/person1.jpg"
-#     facebook = "#"
-#     twitter = "#"
-#     dribbble = "#"
-#     instagram = "#"
-#     github = "#"
-#     linkedin = "#"
-#
-#   [[params.team.item]]
-#     name = "Alice Doe"
-#     position = "Chief overlord"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#     img = "images/person2.jpg"
-#     facebook = "#"
-#     twitter = "#"
-#     dribbble = "#"
-#     instagram = "#"
-#     github = "#"
-#
-#   [[params.team.item]]
-#     name = "John Doe"
-#     position = "Chief haranguer"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#     img = "images/person3.jpg"
-#     facebook = "#"
-#     twitter = "#"
-#     dribbble = "#"
-#     instagram = "#"
-#     github = "#"
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Web Development"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  # [[params.team.item]]
-  #   name = "Jason Doe"
-  #   position = "Chief haranguer"
-  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  #   img = "images/person3.jpg"
-  #   facebook = "#"
-  #   twitter = "#"
-  #   dribbble = "#"
-  #   instagram = "#"
-  #   github = "#"
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Retina Ready"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Light Speed"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Copyrighting"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Load Fast"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Customer Support"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
 # Contact section
 [params.contact]
