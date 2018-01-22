@@ -14,7 +14,7 @@ title = "Shenzhen2020"
   # img = "images/hero_bg.jpg"
   img = "https://s3-us-west-2.amazonaws.com/website-screenshots-sz2020/ENV9.jpg"
   title = "Shenzhen2020"
-  description = "A science-nonfiction film by Maya Rudolph \u0026 Xiaowei Wang"
+  description = "A science-nonfiction film <br> by Maya Rudolph \u0026 Xiaowei Wang"
 
 # Navigation section
 [params.nav]
